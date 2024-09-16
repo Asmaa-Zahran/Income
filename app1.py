@@ -1,7 +1,7 @@
 import streamlit as st
 # import seaborn as sns
 # import matplotlib.pyplot as plt
-# import pandas as pd
+import pandas as pd
 # import plotly.express as px
 
 adult = pd.read_csv("adult.csv")
