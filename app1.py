@@ -1,8 +1,8 @@
 import streamlit as st
 # import seaborn as sns
-import matplotlib.pyplot as plt
-import pandas as pd
-import plotly.express as px
+# import matplotlib.pyplot as plt
+# import pandas as pd
+# import plotly.express as px
 
 adult = pd.read_csv("adult.csv")
 
@@ -56,6 +56,9 @@ def first_page():
 
 def second_page():
     import seaborn as sns
+    import matplotlib.pyplot as plt
+    import pandas as pd
+    import plotly.express as px
     st.title('Uni-Variate Analysis :')    
     adult = pd.read_csv("adult.csv")
 
@@ -90,6 +93,9 @@ def second_page():
 
 def third_page():
     import seaborn as sns
+    import matplotlib.pyplot as plt
+    import pandas as pd
+    import plotly.express as px
     st.title("Bi-Variate Analysis")
     fig = plt.figure(figsize=(10,7))
     adult_df = adult.select_dtypes('number')
